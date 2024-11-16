@@ -1,0 +1,26 @@
+.authFormWrapper {
+  margin-top: 20px;
+  max-height: 65vh;
+  overflow-x: scroll;
+
+  &::-webkit-scrollbar {
+    width: 2px;
+
+    &-thumb {
+      background-color: var(--primary-bg-color);
+    }
+  }
+}
+
+.authGoToLoginWrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 5px;
+  margin-top: 10px;
+}
+
+.authGoToLoginButton,
+.authGoToRegisterButton {
+  padding: 0;
+}

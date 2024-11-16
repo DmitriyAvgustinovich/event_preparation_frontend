@@ -1,0 +1,14 @@
+@import './globals.scss';
+@import './colors.scss';
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: var(--font-family-main);
+}
+
+.ant-upload-select {
+  width: 100% !important;
+  height: 140px !important;
+}
